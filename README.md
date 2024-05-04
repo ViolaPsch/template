@@ -13,7 +13,7 @@ Template for Shiny App
 
 - [ ] Install package `{{bslib}}`
  
-- [ ] Install package `{{}}`
+- [ ] Install package `{{...}}`
 
 ```r
 install.packages("golem")
@@ -21,4 +21,5 @@ golem::create_golem("finanzmanagerin2")
 install.packages("renv")
 renv::init()
 renv::install("usethis")
+renv::snapshot()
 ```
