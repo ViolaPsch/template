@@ -11,15 +11,17 @@ Template for Shiny App
 
 - [ ] Install `{{usethis}}`
 
-- [ ] Install package `{{bslib}}`
+- [ ] Add `app.R`
+
+- [ ] Add/Install package `{{bslib}}`
  
 - [ ] Install package `{{...}}`
 
 ```r
 install.packages("golem")
-golem::create_golem("finanzmanagerin2")
+golem::create_golem("name_of_project")
 install.packages("renv")
 renv::init()
-renv::install("usethis")
+usethis::use_package("bslib")
 renv::snapshot()
 ```
